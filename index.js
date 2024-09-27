@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`📌 Listening to Flame Designs: http://localhost:${port}`);
+  console.log(`📌 Listening to Tiger's Hubb: http://localhost:${port}`);
   console.log(`📌 Flame Desigs`);
 });
 
 
-const statusMessages = ["Watching Flame Designs"];
+const statusMessages = ["Watching Fangame Servers"];
 
 
 let currentIndex = 0;
